@@ -1,5 +1,4 @@
-#program to find area of circle 
-PI = 3.14
-r = float(input("Enter the radius of the circle: "))
-area = PI * r * r
-print("%.2f" %area)
+r = float(input())
+area = 3.14 * r * r
+print("radius of circle is ", r)
+print("area of circle with radius {0} is {1}".format(r, area))
